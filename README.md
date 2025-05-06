@@ -1,17 +1,21 @@
-
-
 # CycleGAN for Medical Image Denoising
 
-This project demonstrates a simplified CycleGAN pipeline for denoising 2D medical images using paired and unpaired training. 
-The original version was used in a high-performance computing environment with 3D NIfTI images.
+This project provides a simplified implementation of a CycleGAN used for denoising medical images.  
+The full version includes advanced pipelines used in an HPC environment with 3D NIfTI images and mixed precision training.
 
-## Key Features
-- Generator and Discriminator based on ResNet blocks
-- Training with paired or unpaired datasets
-- Evaluation using PSNR, SSIM, and custom metrics (QILV)
-- Mixed precision support (AMP)
+## Features
+- ResNet-based Generator and Discriminator
+- Paired and Unpaired Training Support
+- Evaluation: PSNR, SSIM, and QILV
+- AMP (Mixed Precision) Support
 
-> This repo includes a simplified version for demonstration purposes.
+## Structure
+- `models/`: Generator and Discriminator definitions
+- `utils/`: Data loading and metrics
+- `examples/`: Sample input/output NIfTI files
 
-> Full source code and training scripts used in publication-quality experiments are not publicly released due to dataset licensing and ongoing research. Please contact for collaborations or more information.
+> This repo includes a simplified version only. Full training code is omitted for publication/privacy reasons.
+
+## Contact
+For collaboration or access to the full pipeline, please contact [your_email@example.com].
 
