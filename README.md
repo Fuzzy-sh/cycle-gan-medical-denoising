@@ -17,5 +17,5 @@ The full version includes advanced pipelines used in an HPC environment with 3D 
 > This repo includes a simplified version only. Full training code is omitted for publication/privacy reasons.
 
 ## Contact
-For collaboration or access to the full pipeline, please contact [your_email@example.com].
+For access to the full pipeline, please contact.
 
